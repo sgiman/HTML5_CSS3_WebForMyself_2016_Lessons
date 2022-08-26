@@ -102,8 +102,8 @@ img{
 
 
 /*********************************************** 
-                     MAIN
-				   style.css 
+                      MAIN
+                   style.css 
 ************************************************/ 
 /* ЦЕНТРИРОВАТЬ ! */
 .center-block-main 	{	
@@ -465,7 +465,7 @@ a:hover.download-btn-blue {				/* или .download-btn-blue:hover  - кнопк�
 }
 
 /*********************************
-  	   RESPONSIVE - ADAPTIVE
+       RESPONSIVE - ADAPTIVE
 **********************************/
 @media screen and (max-width:1000px) {
 	.main-slider ul li h2 { /* Slide Title */  
