@@ -147,25 +147,25 @@ header {
 	color: #4bcaff;
 }
 /*--- SLIDER ---*/
-.main-slider { 			/* MAIN SLIDER */
+.main-slider { 					/* MAIN SLIDER */
 }
 .main-slider ul li img { 
-	width:100%;		/* ширина слайда на весь экран */
+	width:100%;				/* ширина слайда на весь экран */
 }
-.main-slider ul li {		/* Slide container - text */
+.main-slider ul li {				/* Slide container - text */
 	position: relative;
 	color: #fff;
 	border-bottom: 4px solid #4bcaff; 
-	font-size: 0;		/* убрать просвет внизу слайда */
+	font-size: 0;				/* убрать просвет внизу слайда */
 }
 .main-slider ul li h2 {	/* Slide Title */  
-	font-size: 48px;	/* для заголовка */
+	font-size: 48px;			/* для заголовка */
 	font-weight: 300;
 	line-height: 1.1;
 	margin-bottom:20px;
 }
 .main-slider ul li p {	/* Slide Description */
-	font-size: 16px;	/* для анонса */
+	font-size: 16px;			/* для анонса */
 	font-weight: 300;
 }
 .slide-text-wrapper {
@@ -175,7 +175,7 @@ header {
 	max-width: 700px; 
 }
 .download-btn { 
-	display: inline-block; /* преобразовать в настраиваемый блок */ 
+	display: inline-block;			 /* преобразовать в настраиваемый блок */ 
 	margin-top: 30px; 
 	padding: 20px 50px; 
 	border: 2px solid #fff; 
@@ -191,7 +191,7 @@ header {
 }
 /*--- "UNSLIDER" NAV-STYLE  ----*/
 .unslider-nav {
-	max-width: 1170px; margin: -19px auto 0 auto; /* центрирование */
+	max-width: 1170px; margin: -19px auto 0 auto; 	/* центрирование */
 	position: relative; top: -15px;	
 }	
 
@@ -238,7 +238,7 @@ header {
 	font-weight:600;
 	color: #414042;
 }
-.block3-main article h2 a { 	/* для ссылок */
+.block3-main article h2 a { 		/* для ссылок */
 	text-decoration: none; 
 	color: #414042;
 }
@@ -271,23 +271,23 @@ header {
 .block4-main {
 	padding-bottom: 10px;
 }
-.block4-main article { 				/* "резиновые" отступы */
+.block4-main article { 			/* "резиновые" отступы */
 	width: 23%;
 	margin-left: 2.6666666666666666666666666666667%; 
 	float: left;
 }
 .block4-main article:first-child {
-	margin-left: 0;				/* обнулить левый отступ для первого элемента  */
+	margin-left: 0;			/* обнулить левый отступ для первого элемента  */
 }
-.block4-main article img { 			/* центрирование изображений */
-	display:block;				/* img преобразовать в блок*/
-	margin: 0 auto;				/* центрировать */
+.block4-main article img { 		/* центрирование изображений */
+	display:block;			/* img преобразовать в блок*/
+	margin: 0 auto;			/* центрировать */
 }
 .block4-main-content{
 	padding:20px 20px 0 20px;
 	text-align: center; 
 }
-.block4-main-content p {  			/* DESCRIPTION */
+.block4-main-content p {  		/* DESCRIPTION */
 	font-size: 0.8125em;
 	margin-bottom: 15px; 
 	line-height: 1.5; 	
@@ -580,13 +580,13 @@ a:hover.download-btn-blue {		/* или .download-btn-blue:hover  - кнопка 
 @media screen and (max-width:360px) {
 	/*---  EMAIL ---*/
 	.email-in { 
-		box-sizing: border-box; 			/* для вычислений общего размера формы с учетом всех отступов */  
+		box-sizing: border-box; 		/* для вычислений общего размера формы с учетом всех отступов */  
 		margin: 0 2.5% 20px 2.5%;
 		float: none; 
 		width: 95%; 
 
 	}
-	.submit-in {  						/* кнопка */
+	.submit-in {  					/* кнопка */
 		margin-left: 2.5%; 
 	}
 
