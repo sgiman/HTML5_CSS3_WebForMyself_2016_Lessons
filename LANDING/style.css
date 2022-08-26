@@ -11,12 +11,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, 
 	margin: 0;
 	padding: 0;
 	border: 0;
-	outline: 0;								/* обнуляем отступы и убираем бордюры */
+	outline: 0;						/* обнуляем отступы и убираем бордюры */
 	vertical-align: baseline;				/* приводим все к одной базовой линии */
 	background: transparent;				/* чтобы не проскакивали левые фоны, установленные по умолчанию */
-	font-size: 100%;						/* размер шрифта всем одинаковый */
+	font-size: 100%;					/* размер шрифта всем одинаковый */
 }
-a {	  										/* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+a {	  							/* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
 	margin:0;
 	padding:0;
 	font-size:100%;
@@ -24,7 +24,7 @@ a {	  										/* ссылка не в общем списке чтобы не 
 	background:transparent;
 	outline:none;
 }
-table {										/* устраняем отступы между ячейками таблицы */
+table {								/* устраняем отступы между ячейками таблицы */
 	border-collapse: collapse; 
 	border-spacing: 0;
 }
@@ -32,12 +32,12 @@ td, td img {
 	vertical-align: top;					/* возвращаем привычное вертикальное выравнивание */
 } 
 input, select, button, textarea {
-	margin: 0; 								/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
-	font-size: 100%; 						/* делаем размер шрифтов везде одинаковым */
+	margin: 0; 						/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 					/* делаем размер шрифтов везде одинаковым */
 	outline: none;
 }
 input[type="password"], textarea {
-	padding: 0; 							/* убираем внутренние отступы для текстовых полей */
+	padding: 0; 						/* убираем внутренние отступы для текстовых полей */
 }
 input[type="checkbox"] { 					/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
 	vertical-align: bottom;
@@ -74,7 +74,7 @@ body {
 }
 a, a:visited { 							/* порядок правил для ссылок имеет значение */
 	color: #fff;
-	text-decoration: underline;			/* ЦВЕТ ССЫЛОК ! */	
+	text-decoration: underline;				/* ЦВЕТ ССЫЛОК ! */	
 }
 a:hover {
 	color: #000;						/* ЦВЕТ ССЫЛОК ! */			
@@ -147,25 +147,25 @@ header {
 	color: #4bcaff;
 }
 /*--- SLIDER ---*/
-.main-slider { 			/* MAIN SLIDER */
+.main-slider { 						/* MAIN SLIDER */
 }
 .main-slider ul li img { 
-	width:100%;			/* ширина слайда на весь экран */
+	width:100%;					/* ширина слайда на весь экран */
 }
-.main-slider ul li {	/* Slide container - text */
+.main-slider ul li {					/* Slide container - text */
 	position: relative;
 	color: #fff;
 	border-bottom: 4px solid #4bcaff; 
-	font-size: 0;		/* убрать просвет внизу слайда */
+	font-size: 0;					/* убрать просвет внизу слайда */
 }
 .main-slider ul li h2 {	/* Slide Title */  
-	font-size: 48px;	/* для заголовка */
+	font-size: 48px;				/* для заголовка */
 	font-weight: 300;
 	line-height: 1.1;
 	margin-bottom:20px;
 }
-.main-slider ul li p {	/* Slide Description */
-	font-size: 16px;	/* для анонса */
+.main-slider ul li p {					/* Slide Description */
+	font-size: 16px;				/* для анонса */
 	font-weight: 300;
 }
 .slide-text-wrapper {
@@ -175,7 +175,7 @@ header {
 	max-width: 700px; 
 }
 .download-btn { 
-	display: inline-block; /* преобразовать в настраиваемый блок */ 
+	display: inline-block; 				/* преобразовать в настраиваемый блок */ 
 	margin-top: 30px; 
 	padding: 20px 50px; 
 	border: 2px solid #fff; 
@@ -191,7 +191,7 @@ header {
 }
 /*--- "UNSLIDER" NAV-STYLE  ----*/
 .unslider-nav {
-	max-width: 1170px; margin: -19px auto 0 auto; /* центрирование */
+	max-width: 1170px; margin: -19px auto 0 auto; 	/* центрирование */
 	position: relative; top: -15px;	
 }	
 
@@ -218,18 +218,18 @@ header {
 	margin-top: -20px;
 	margin-bottom: 50px;
 }
-.block3-main article {			/* "резиновые" отступы */
+.block3-main article {					/* "резиновые" отступы */
 	width: 30%;
 	float: left;
 	margin-left: 5%;
 	text-align: center;
 }
 .block3-main article:first-child {
-	margin-left: 0; 			/* обнулить отступ для первого дочернего элемента */
+	margin-left: 0; 				/* обнулить отступ для первого дочернего элемента */
 }
-.block3-main article img { 		/* центрирование изображений */
-	display: block;				/* img преобразовать в блок*/
-	margin: 0 auto 20px auto;	/* центрировать */
+.block3-main article img { 				/* центрирование изображений */
+	display: block;					/* img преобразовать в блок*/
+	margin: 0 auto 20px auto;			/* центрировать */
 }
 .block3-main article h2 {		
 	font-size: 1em;
@@ -238,11 +238,11 @@ header {
 	font-weight:600;
 	color: #414042;
 }
-.block3-main article h2 a { 	/* для ссылок */
+.block3-main article h2 a { 				/* для ссылок */
 	text-decoration: none; 
 	color: #414042;
 }
-.block3-main article h2 a:hover { 	/* для ссылок */
+.block3-main article h2 a:hover { 			/* для ссылок */
 	text-decoration: underline; 
 }
 .block3-main article p { 
@@ -254,7 +254,7 @@ header {
 /****************** BLOCK4 - "GALLERY" ********************/
 .block4-section { 
 	padding: 30px 0 0 0;
-	margin-bottom: 60px; 		/* общий внешний отступ снизу */ 
+	margin-bottom: 60px; 				/* общий внешний отступ снизу */ 
 }
 .block4-section>h2 { /* > only for current title (first find) */ 
 	font-size: 2.25em; 
@@ -271,23 +271,23 @@ header {
 .block4-main {
 	padding-bottom: 10px;
 }
-.block4-main article { 			/* "резиновые" отступы */
+.block4-main article { 					/* "резиновые" отступы */
 	width: 23%;
 	margin-left: 2.6666666666666666666666666666667%; 
 	float: left;
 }
 .block4-main article:first-child {
-	margin-left: 0;				/* обнулить левый отступ для первого элемента  */
+	margin-left: 0;					/* обнулить левый отступ для первого элемента  */
 }
-.block4-main article img { 		/* центрирование изображений */
-	display:block;				/* img преобразовать в блок*/
-	margin: 0 auto;				/* центрировать */
+.block4-main article img { 				/* центрирование изображений */
+	display:block;					/* img преобразовать в блок*/
+	margin: 0 auto;					/* центрировать */
 }
 .block4-main-content{
 	padding:20px 20px 0 20px;
 	text-align: center; 
 }
-.block4-main-content p {  		/* DESCPTION */
+.block4-main-content p {  				/* DESCPTION */
 	font-size: 0.8125em;
 	margin-bottom: 15px; 
 	line-height: 1.5; 	
@@ -298,7 +298,7 @@ header {
 .video-section { 
 	background: url(images/videosection.jpg) center top no-repeat; 
 	padding: 150px 0;
-	background-size: cover;	/* на всю ширину экрана !!! */
+	background-size: cover;				/* на всю ширину экрана !!! */
 }
 .video-main-text { 
 	text-align: center; 
@@ -306,10 +306,10 @@ header {
 }
 .video-main-text img { 
 	margin-bottom: 20px; 
-	cursor: pointer;		/* курсор - "указывающий перст" */ 	 
+	cursor: pointer;				/* курсор - "указывающий перст" */ 	 
 }
-.video-main-text h2 {		/* Video Title */  
-	font-size: 48px;		/* для заголовка */
+.video-main-text h2 {					/* Video Title */  
+	font-size: 48px;				/* для заголовка */
 	font-weight: 300;
 	line-height: 1.1;
 	margin-bottom:20px;
@@ -317,8 +317,8 @@ header {
 .video-main-text h2 span { 
 	font-weight: 600;
 }
-.video-main-text p {		/* Video Description */
-	font-size: 16px;		/* для анонса */
+.video-main-text p {					/* Video Description */
+	font-size: 16px;				/* для анонса */
 	font-weight: 300;
 }
 
@@ -336,8 +336,8 @@ header {
 	margin-bottom: 30px;
 }
 /* Download APP Buttom */
-a.download-btn-blue {  		/*  или .download-btn-blue  - кнопка ссылка */
-	display: inline-block;	/* преобразовать в настраиваемый блок */ 
+a.download-btn-blue {  					/*  или .download-btn-blue  - кнопка ссылка */
+	display: inline-block;				/* преобразовать в настраиваемый блок */ 
 	margin-top: 30px; 
 	padding: 20px 50px; 
 	color: #414042; 
@@ -347,7 +347,7 @@ a.download-btn-blue {  		/*  или .download-btn-blue  - кнопка ссыл�
 	background: #4bcaff;
 	border-radius:5px; 
 }
-a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка ссылка */
+a:hover.download-btn-blue {				/* или .download-btn-blue:hover  - кнопка ссылка */
 	color: #fff; 
 }
 
@@ -378,7 +378,7 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 	margin-bottom:15px; 
 	padding:7px 20px; 
 	border:none; 
-	box-sizing:border-box; /* для размера с учетом всех отступов */     
+	box-sizing:border-box; 				/* для размера с учетом всех отступов */     
 	border-radius: 5px; 
 	text-align: center;
 	color: #999; 
@@ -390,7 +390,7 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 	margin-bottom:15px; 
 	padding:7px 20px; 
 	border:none; 
-	box-sizing:border-box; /* для размера с учетом всех отступов */     
+	box-sizing:border-box;				 /* для размера с учетом всех отступов */     
 	border-radius: 5px; 
 	text-align: center; 
 	color: #999; 
@@ -401,7 +401,7 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 	padding:7px 20px; 
 	background:#414042; 
 	color:#72b3cc; 
-	cursor:pointer; 	/* курсор - "палец" */
+	cursor:pointer; 				/* курсор - "палец" */
 	margin-bottom: 10px;
 	border-radius: 5px; 
 	text-align: center; 
@@ -457,7 +457,7 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 	margin-bottom:5px; 
 	text-decoration:none; 
 	color:#7e7f84;
-	display:block; /* все ссылки блочные - с новой сторки */	
+	display:block; 						/* все ссылки блочные - с новой сторки */	
 }
 .support a:hover { 
 	text-decoration:underline; 
@@ -478,13 +478,13 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 
 @media screen and (max-width:900px) {
 	/*--- BLOCK4 ---*/
-	.block4-main article { 			/* "резиновые" отступы */
+	.block4-main article { 					/* "резиновые" отступы */
 		width: 45%;
 		margin: 0 2.5% 30px 2.5%; 
 		float: left;
 	}
 	.block4-main article:first-child {
-		margin: 0 2.5% 30px 2.5%;	/* обнулить левый отступ для первого элемента  */
+		margin: 0 2.5% 30px 2.5%;			/* обнулить левый отступ для первого элемента  */
 	}
 
 	/*--- SUBSCRIBE ---*/
@@ -495,8 +495,8 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 		
 	}
 	.subscribe-form { 
-		display: table; /* если неизвестна ширина при центрировании */
-		margin: 0 auto; /* центрирование */
+		display: table;					/* если неизвестна ширина при центрировании */
+		margin: 0 auto; 				/* центрирование */
 		float: none;
 	}
 
@@ -525,16 +525,16 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 
 @media screen and (max-width:600px) {
 	/*--- BLOCK3 - ANNONS ---*/
-	.block3-main article {			/* "резиновые" отступы */
+	.block3-main article {					/* "резиновые" отступы */
 		width: 95%;					/* ширина */
-		margin: 0 2.5%; 			/* отступы  справи и слева:  95 + 2.5 + 2.5 = 100% */
+		margin: 0 2.5%; 				/* отступы  справи и слева:  95 + 2.5 + 2.5 = 100% */
 		float: none;
 	}
 	.block3-main article:first-child {
-		margin: 0 2.5%; 			/* для первого */ 			
+		margin: 0 2.5%; 				/* для первого */ 			
 	}
    	.block3-main article img {
-		width: 100%;				/* изображения на всю ширину ??? */
+		width: 100%;					/* изображения на всю ширину ??? */
 		margin-top: 5px;
 	}
 	
@@ -551,11 +551,11 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 		font-size: 0.85em;
 	}
 	/*--- BLOCK4 ---*/
-	.block4-main article { 			/* "резиновые" отступы */
+	.block4-main article { 					/* "резиновые" отступы */
 		width: 95%;
 		margin: 0 2.5% 30px 2.5%; 
 		float: none;
-		overflow: hidden;           /* запрет обтекания (float) */
+		overflow: hidden;           			/* запрет обтекания (float) */
 	}
 	.block4-main article:first-child {
 		width: 95%;
@@ -586,7 +586,7 @@ a:hover.download-btn-blue {	/* или .download-btn-blue:hover  - кнопка �
 		width: 95%; 
 
 	}
-	.submit-in {  							/* кнопка */
+	.submit-in {  						/* кнопка */
 		margin-left: 2.5%; 
 	}
 
