@@ -7,3 +7,5 @@ html5 / css3
 **WebForMyself | Andrey Bernatsky**
 
 ![title](https://github.com/sgiman/HTML5_CSS3/assets/7030369/b6222bec-5be6-4c3e-88c8-d1c13243a6f5)
+
+**Sgiman @ 2023**
